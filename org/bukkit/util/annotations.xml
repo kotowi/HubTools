@@ -1,0 +1,5 @@
+<root>
+    <item name='org.bukkit.util.Vector'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
