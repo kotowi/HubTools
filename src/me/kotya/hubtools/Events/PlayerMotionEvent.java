@@ -15,6 +15,7 @@ public class PlayerMotionEvent implements Listener {
 
     @EventHandler
     public void onWalk(PlayerMoveEvent e){
+
         if (e.getTo().getBlock().getType() == Material.STATIONARY_WATER){
             Inventory inv = plugin.getServer().createInventory(null, 9*6, "§c§lВыбор сервера");
 
